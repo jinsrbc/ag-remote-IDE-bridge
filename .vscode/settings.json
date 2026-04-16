@@ -1,0 +1,11 @@
+{
+    "files.autoSave": "onFocusChange",
+    "task.allowAutomaticTasks": true,
+    "files.associations": {
+        "*.py": "python"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
+}
