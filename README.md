@@ -40,5 +40,9 @@ This will launch the UDP-broadcasting FastAPI backend on port `5005` in local ne
 - Install the Android APK on a device connected to the **same Wi-Fi Network**.
 - Open the application. The system will auto-scan the underlying IP range (e.g., `192.168.1.X:5005`), discover the host, and securely establish the WebSocket tunnel.
 
-## Security & Privacy
-This repository is sanitized for public open-source usage. All local LLM bindings, heavy C++ environments (`llama_jni.cpp`), and custom filesystem dependencies have been detached. It operates completely off-grid without requiring external cloud relay services or access tokens in standard mode.
+## Contributing & Future Roadmap
+We welcome contributions! The current bridge works incredibly well on a local network (LAN), but there is huge potential for expansion. We invite developers to contribute by:
+1. **Any-Network Connectivity**: Implementing secure tunneling or remote relays to allow the mobile app to securely control the desktop agent from *anywhere* over the internet.
+2. **Universal IDE Control**: Expanding the OS-level system integration to create seamless, universal control layers or native plugins for *any* major IDE (VS Code, IntelliJ, Cursor, etc.).
+
+Feel free to fork the repository, submit pull requests, or open issues with your ideas to help push this project forward!
